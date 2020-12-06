@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Open Sans Condensed", "Open Sans", "Droid Sans", sans-serif;
+    font-weight: normal;
+}
+body{
+    color: #DFF7E5;
+    line-height: 1.7;
+    background-color: #208C8C;
+}
+
+.container{
+    width: 100%;
+   
+}
+.container > .content-section{
+    width: 100%;
+}
+
+.flex{
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h1{
+    font-size: 37px;
+    margin-top: 1em;
+}
+.banner h1 span{
+    opacity: 0.5;
+    font-size: 17px;
+    display: block;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.banner h1 span:hover{
+    opacity: 1;
+}
+.banner h1 span a{
+    color: inherit;
+}
+
+.banner p {
+  font-size: 1.2em;
+  margin: 3em auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.section.img{
+  padding: 3em 0;
+ 
+}
+.content-section .img h3{
+    margin: 0 0 1.7em;
+    font-size: 1.8em;
+}
+.content-section .img:nth-child(odd){
+    background: #205B73;
+}
+.content-section .img:nth-child(odd) h3{
+    color: #AFE4FC;
+}
+.content-section .img:nth-child(even){
+    background: #F2E6A7;
+}
+.content-section .img:nth-child(even) h3{
+    color: #CDAE51;
+}
+
+.section.img  img{
+    width: 100%;
+    height: auto;
+}
+.img .s-o-r{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    transform-origin: 50% 50%;
+}
+.img .losange{
+    transform: rotate(45deg);
+    width: 300px;
+    height: 299px;
+}
+.img .los{
+    overflow: hidden;
+    transform: rotate(-45deg) scale(1.43);
+}
+.img .diamond{
+    transform: rotate(45deg);
+    width: 300px;
+    height: 300px;
+}
+
+.img .dia {
+    overflow: hidden;
+    transform: rotate(-45deg) scale(1.3) translate(0px, 35px);
+}
+
+
+.img .hexagon {
+    width: 425px;
+    height: 349px;
+    transform: rotate(120deg);
+    overflow: hidden;
+}
+.img .hax{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  transform: rotate(-60deg);
+}
+
+.img .hax1{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    transform: rotate(-60deg);
+}
+
+.img .octogon{
+    width: 350px;
+    height: 350px;
+    transform:rotate(45deg)
+}
+.img .octa{
+    transform:rotate(-45deg);
+
+}
+
+.img .dodecagon{
+    width: 340px;
+    height: 340px;
+    transform: rotate(120deg);
+    overflow: hidden;
+}
+
+.img .dode {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    
+}
+.img .dode1{
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.img .dodecagon.irr{
+    width: 340px;
+    height: 320px;
+}
+.footer{
+
+}
+.footer button{
+    margin: 2em 0px 1em 0;
+    padding: 0.8em 1.5em;
+    background: none;
+    border: 0.2em solid #fff;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.4s ease-in-out;
+}
+.footer button:hover, .footer button:focus{
+    background: rgba(0,0,0,.2);
+}
+.footer p {
+    padding: 1em 0 2em 0;
+}
